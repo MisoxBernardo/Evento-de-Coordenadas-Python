@@ -12,7 +12,7 @@ def calcular_raizes():
         if a == 0:
             resultado_label.configure(text="Erro: Coeficiente 'a' não pode ser zero!")
             return
-        
+        # Actual
         # Coeficientes do polinômio
         coeficientes = [a, b, c]
         
